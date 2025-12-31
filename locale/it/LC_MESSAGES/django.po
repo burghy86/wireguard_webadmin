@@ -11,7 +11,7 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: es\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,15 +22,15 @@ msgstr ""
 #: templates/user_manager/peer_group_list.html:8 user_manager/forms.py:177
 #: wireguard_peer/forms.py:10
 msgid "Name"
-msgstr "Nombre"
+msgstr "Nome"
 
 #: cluster/forms.py:18 vpn_invite/forms.py:49 vpn_invite/forms.py:294
 msgid "Enabled"
-msgstr "Habilitado"
+msgstr "Abilitato"
 
 #: cluster/forms.py:19
 msgid "IP Lock"
-msgstr "Bloqueo de IP"
+msgstr "IP Bloccati"
 
 #: cluster/forms.py:20 dns/forms.py:66 templates/cluster/workers_list.html:10
 #: templates/dns/static_host_list.html:18
@@ -39,19 +39,19 @@ msgstr "Bloqueo de IP"
 #: templates/firewall/manage_redirect_rule.html:68
 #: templates/wireguard/wireguard_status.html:45
 msgid "IP Address"
-msgstr "Dirección IP"
+msgstr "Indirizzo IP"
 
 #: cluster/forms.py:21
 msgid "Country"
-msgstr "País"
+msgstr "Paese"
 
 #: cluster/forms.py:22
 msgid "City"
-msgstr "Ciudad"
+msgstr "Città"
 
 #: cluster/forms.py:23 dns/forms.py:65 templates/dns/static_host_list.html:17
 msgid "Hostname"
-msgstr "Nombre de host"
+msgstr "Hostname"
 
 #: cluster/forms.py:24
 msgid "Token"
@@ -66,7 +66,7 @@ msgstr "Token"
 #: templates/wireguard/wireguard_peer_list.html:166 user_manager/forms.py:49
 #: user_manager/forms.py:180 vpn_invite/forms.py:192 vpn_invite/forms.py:326
 msgid "Back"
-msgstr "Volver"
+msgstr "indietro"
 
 #: cluster/forms.py:27 dns/forms.py:68 dns/forms.py:110
 #: templates/firewall/manage_firewall_rule.html:382
@@ -75,7 +75,7 @@ msgstr "Volver"
 #: templates/wireguard/wireguard_peer_list.html:185 user_manager/forms.py:48
 #: user_manager/forms.py:181
 msgid "Delete"
-msgstr "Eliminar"
+msgstr "Elimina"
 
 #: cluster/forms.py:66 cluster/forms.py:133 dns/forms.py:37 dns/forms.py:83
 #: dns/forms.py:134 templates/firewall/manage_firewall_rule.html:379
@@ -87,86 +87,82 @@ msgstr "Eliminar"
 #: user_manager/forms.py:98 user_manager/forms.py:205 vpn_invite/forms.py:191
 #: vpn_invite/forms.py:325
 msgid "Save"
-msgstr "Guardar"
+msgstr "Salva"
 
 #: cluster/forms.py:81
 msgid "A worker with that name already exists."
-msgstr "Ya existe un worker con ese nombre."
+msgstr "Nome Worker Già esistente"
 
 #: cluster/forms.py:84
 msgid "IP Address is required when IP Lock is enabled."
 msgstr ""
-"La dirección IP es obligatoria cuando el bloqueo de IP está habilitado."
+"L'Ip è obbligatorio quando il blocco ip è abilitato"
 
 #: cluster/forms.py:99
 msgid "Cluster Enabled"
-msgstr "Cluster habilitado"
+msgstr "Cluster abilitato"
 
 #: cluster/forms.py:100
 msgid "Primary Enable WireGuard"
-msgstr "Habilitar WireGuard primario"
+msgstr "abilita WireGuard primario"
 
 #: cluster/forms.py:101
 msgid "Stats Sync Interval (seconds)"
-msgstr "Intervalo de sincronización de estadísticas (segundos)"
+msgstr "Intervallo delle Statistiche di sync  (secondi)"
 
 #: cluster/forms.py:102
 msgid "Stats Cache Interval (seconds)"
-msgstr "Intervalo de caché de estadísticas (segundos)"
+msgstr "Intervallo delle Statistiche di cache  (secondi)"
 
 #: cluster/forms.py:103
 msgid "Cluster Mode"
-msgstr "Modo de cluster"
+msgstr "Modalità Cluster"
 
 #: cluster/forms.py:104
 msgid "Restart Mode"
-msgstr "Modo de reinicio"
+msgstr "Riavvia modalità"
 
 #: cluster/forms.py:105
 msgid "Worker Display"
-msgstr "Visualización del worker"
+msgstr "Visualizza Worker"
 
 #: cluster/forms.py:146
 msgid "Stats sync interval must be at least 60 seconds."
-msgstr ""
-"El intervalo de sincronización de estadísticas debe ser de al menos 60 "
-"segundos."
+msgstr "L'intervallo di sincronizzazione delle statistiche deve essere di almeno 60 secondi."
 
 #: cluster/forms.py:149
 msgid "Stats cache interval must be at least 60 seconds."
-msgstr ""
-"El intervalo de caché de estadísticas debe ser de al menos 60 segundos."
+msgstr "L'intervallo di cache delle statistiche deve essere di almeno 60 secondi."
 
 #: cluster/models.py:47
 msgid ""
 "IP lock is enabled, but the worker is attempting to access from a different "
 "IP address."
 msgstr ""
-"El bloqueo de IP está habilitado, pero el worker está intentando acceder desde "
-"una dirección IP diferente."
+"Il blocco IP è abilitato, ma il worker sta tentando di accedere da un indirizzo IP diverso."
 
 #: cluster/models.py:48
 msgid "Worker is not enabled"
-msgstr "Worker no está habilitado"
+msgstr "Il worker non è abilitato"
 
 #: cluster/models.py:49
 msgid "Cluster is not enabled"
-msgstr "Cluster no está habilitado"
+msgstr "Il cluster non è abilitato"
 
 #: cluster/models.py:50
 msgid ""
 "Please report worker_config_version and worker_version in the API request."
 msgstr ""
-"Por favor, informe worker_config_version y worker_version en la solicitud de API."
+"Si prega di indicare worker_config_version e worker_version nella richiesta API."
 
 #: cluster/models.py:51
 msgid "Worker update is required."
-msgstr "Se requiere la actualización del worker."
+msgstr "È richiesta l'aggiornamento del worker."
 
 #: cluster/views.py:15 cluster/views.py:27 cluster/views.py:96
 #: templates/access_denied.html:9
 msgid "Access Denied"
-msgstr "Acceso denegado"
+msgstr "Accesso negato"
 
 #: cluster/views.py:17 templates/base.html:162
 msgid "Cluster"
@@ -174,27 +170,27 @@ msgstr "Cluster"
 
 #: cluster/views.py:33
 msgid "Edit Worker: "
-msgstr "Editar Worker: "
+msgstr "Modifica Worker: "
 
 #: cluster/views.py:39
 msgid "Worker deleted|Worker deleted: "
-msgstr "Worker eliminado|Worker eliminado: "
+msgstr "Worker eliminato|Worker eliminato: "
 
 #: cluster/views.py:42
 msgid "Worker not deleted|Invalid confirmation."
-msgstr "Worker no eliminado|Confirmación inválida."
+msgstr "Worker non eliminato|Conferma non valida."
 
 #: cluster/views.py:46 templates/cluster/workers_list.html:85
 msgid "Add Worker"
-msgstr "Agregar Worker"
+msgstr "Aggiungi Worker"
 
 #: cluster/views.py:57
 msgid "Worker updated|Worker updated: "
-msgstr "Worker actualizado|Worker actualizado: "
+msgstr "Worker aggiornato|Worker aggiornato: "
 
 #: cluster/views.py:59
 msgid "Worker created|Worker created: "
-msgstr "Worker creado|Worker creado: "
+msgstr "Worker creato|Worker creato: "
 
 #: cluster/views.py:64
 msgid ""
